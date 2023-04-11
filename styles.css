@@ -1,0 +1,64 @@
+html{
+    background-color: aliceblue;
+    font-family: “Comic Sans MS”, “Comic Sans”, monospace;
+    background-image: url('./Imagenes/papasfritas-crocantes-ñaaam.jpg');
+    color: white;
+    text-shadow: 5px 5px 10px black;
+    font-size: 1.1rem;
+}
+body {
+    display: flex;
+    justify-content: center;
+}
+hr {
+    margin: 10px 150px;
+    height: 3px;
+    background-color: white;
+    border: none;
+
+}
+
+#containar{
+    text-align: center;
+    width: fit-content;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    margin-top: 5px;
+}
+.menu table{
+    border-collapse: collapse;
+    margin-bottom: 10px;
+    
+}
+
+
+.menu table th {
+    font-weight: 1600;
+}
+
+.menu table th, td{
+    padding: 10px;
+    width: 160px;
+}
+
+.descripcion{
+    width: 400px;
+}
+
+#ir-arriba {
+    padding: 50px;
+}
+#ir-arriba a{   
+    text-decoration: none;
+}
+#ir-arriba a:hover{   
+    color: blue;
+}
