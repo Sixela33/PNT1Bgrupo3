@@ -1,113 +1,127 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resto-bar</title>
-    <link rel="stylesheet" href="./styles.css">
-    <link rel="icon" href="./Imagenes/Void1.webp">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Resto-bar</title>
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="icon" href="./Imagenes/Void1.webp">
 
-</head>
+    </head>
     <body>
-        <div id="containar">
-            <h1 id="arriba">Menú</h1>
-            <h2>Comida</h2>
-            
-            <img href="./Imagenes/papasfritas-crocantes-ñaaam.jpg"/>
-            <div class="menu">
+        <main>
+            <div id="containar">
+                <header>
+                    <h1 id="titulo"> ♔ Bienvenidos al restaurante los hijos con frutas ♔</h1>
+                    <h2>☞ Menú ☜</h2>
+                </header>
+                <section>
+                    <h2>Comida</h2>
+                    <div class="menu">
+                        <table>
+                            <tr>
+                                <th>Nombre</th>
+                                <th class="descripcion">Descripción</th>
+                                <th class="precio">Precio</th>
+                            </tr>
+                            <tr>
+                                <td>Papasfritas</td>
+                                <td class="descripcion">Papa cortada en tiras y freida hasta la perfeccion</td>
+                                <td class="precio">$1.000</td>
+                            </tr>
+                            <tr>
+                                <td>Papasfritas con cheddar</td>
+                                <td class="descripcion">Papa cortada en tiras y freida hasta la perfeccion y bañadas en cheddar</td>
+                                <td class="precio">$1.500</td>
+                            </tr>
+                            <tr>
+                                <td>Nuggets de acelga</td>
+                                <td class="descripcion">soja cazada en la interperie comvertida en nuggets sabrozos para su deleite</td>
+                                <td class="precio">$3.500</td>
+                            </tr>
+                        </table>
+                    </div>
+                </section>
 
-                <table>
-                    <tr>
-                        <th>Nombre</th>
-                        <th class="descripcion">Descripción</th>
-                        <th>Precio</th>
-                    </tr>
-                    <tr>
-                        <td>Papasfritas</td>
-                        <td class="descripcion">Papa cortada en tiras y freida hasta la perfeccion</td>
-                        <td>$1.000</td>
-                    </tr>
-                    <tr>
-                        <td>Papasfritas con cheddar</td>
-                        <td class="descripcion">Papa cortada en tiras y freida hasta la perfeccion y bañadas en cheddar</td>
-                        <td>$1.500</td>
-                    </tr>
-                    <tr>
-                        <td>Nuggets de acelga</td>
-                        <td class="descripcion">soja cazada en la interperie comvertida en nuggets sabrozos para su deleite</td>
-                        <td>$3.500</td>
-                    </tr>
-                </table>
-            
-            </div>
-            <hr/>
-            <h2>Bebida</h2>
-            <div class="menu">
-                <table>
-                    <tr>
-                        <th>Nombre</th>
-                        <th class="descripcion">Descripción</th>
-                        <th>Precio</th>
-                    </tr>
-                    <tr>
-                        <td>Agua</td>
-                        <td class="descripcion">Glu Glu</td>
-                        <td>$700</td>
-                    </tr>
-                    <tr>
-                        <td>Gaseosa</td>
-                        <td class="descripcion">Psst</td>
-                        <td>$500</td>
-                    </tr>
-                    <tr>
-                        <td>Cerveza fria</td>
-                        <td class="descripcion">Cerveza hecha con la mejor malta traida desde el imalaya</td>
-                        <td>$1.000</td>
-                    </tr>
-                    <tr>
-                        <td>Aperol sprit</td>
-                        <td class="descripcion">aperitivo burbujeante Para deleitar paladares expertos hecho en la misma ciudad de "Spritz"</td>
-                        <td>$3.500</td>
-                    </tr>
-                </table>
-            </div>
-            <hr/>
-            <h2>Postres</h2>
-            <div class="menu" >
-                <table>
-                    <tr>
-                        <th>Nombre</th>
-                        <th class="descripcion">Descripción</th>
-                        <th>Precio</th>
-                    </tr>
-                    <tr>
-                        <td>Heladito</td>
-                        <td class="descripcion">Fresco y delicioso (dulcedeleche, americana y chocolate (claramente no hay de menta))</td>
-                        <td>$200</td>
-                    </tr>
-                    <tr>
-                        <td>Flan</td>
-                        <td class="descripcion">Esponjosa, con dulce y crema</td>
-                        <td>$200</td>
-                    </tr>
-                    <tr>
-                        <td>Vigilante</td>
-                        <td class="descripcion">No es un policia, a este resto no entran</td>
-                        <td>$100</td>
-                    </tr>
-                    <tr>
-                        <td>Ensalada de frutas</td>
-                        <td class="descripcion">Tropical y te la trae un mozo vestido de jawaiano</td>
-                        <td>$1.000</td>
-                    </tr>
+                <hr/>
+                <section>
 
-                </table>
+                <h2>Bebida</h2>
+                <div class="menu">
+                    <table>
+                        <tr>
+                            <th>Nombre</th>
+                            <th class="descripcion">Descripción</th>
+                            <th class="precio">Precio</th>
+                        </tr>
+                        <tr>
+                            <td>Agua</td>
+                            <td class="descripcion">Glu Glu</td>
+                            <td class="precio">$700</td>
+                        </tr>
+                        <tr>
+                            <td>Gaseosa</td>
+                            <td class="descripcion">Psst</td>
+                            <td class="precio">$500</td>
+                        </tr>
+                        <tr>
+                            <td>Cerveza fria</td>
+                            <td class="descripcion">Cerveza hecha con la mejor malta traida desde el imalaya</td>
+                            <td class="precio">$1.000</td>
+                        </tr>
+                        <tr>
+                            <td>Aperol sprit</td>
+                            <td class="descripcion">aperitivo burbujeante Para deleitar paladares expertos hecho en la misma ciudad de "Spritz"</td>
+                            <td class="precio">$3.500</td>
+                        </tr>
+                    </table>
+                </div>
+                </section>
+
+                <hr/>
+                <section>
+
+                <h2>Postres</h2>
+                <div class="menu" >
+                    <table>
+                        <tr>
+                            <th>Nombre</th>
+                            <th class="descripcion">Descripción</th>
+                            <th class="precio">Precio</th>
+                        </tr>
+                        <tr>
+                            <td>Heladito</td>
+                            <td class="descripcion">Fresco y delicioso (dulcedeleche, americana y chocolate (claramente no hay de menta))</td>
+                            <td class="precio">$200</td>
+                        </tr>
+                        <tr>
+                            <td>Flan</td>
+                            <td class="descripcion">Esponjosa, con dulce y crema</td>
+                            <td class="precio">$200</td>
+                        </tr>
+                        <tr>
+                            <td>Vigilante</td>
+                            <td class="descripcion">No es un policia, a este resto no entran</td>
+                            <td class="precio">$100</td>
+                        </tr>
+                        <tr>
+                            <td>Ensalada de frutas</td>
+                            <td class="descripcion">Tropical y te la trae un mozo vestido de jawaiano</td>
+                            <td class="precio">$1.000</td>
+                        </tr>
+
+                    </table>
+                </div>
+                </section>
+
+                <hr/>
+                <footer>
+                    <div id="ir-arriba">
+                        <a href="#titulo">ir arriba</a>
+                    </div>
+                </footer>
             </div>
-            <hr/>
-            <div id="ir-arriba">
-                <a href="#arriba">ir arriba</a>
-            </div>
-        </div>
+        </main>
     </body>
 </html>

@@ -62,3 +62,12 @@ h2{
 #ir-arriba a:hover{   
     color: blue;
 }
+.precio {
+    text-align: right;
+}
+
+#titulo{
+    padding: 5px;
+    color: yellow;
+    text-decoration: underline ;
+}
