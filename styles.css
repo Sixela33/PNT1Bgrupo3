@@ -17,16 +17,13 @@ hr {
     border: none;
 
 }
-
-#containar{
+#container{
     text-align: center;
     width: fit-content;
 }
-
 h2{
     text-decoration: underline;
 }
-
 .menu{
     display: flex;
     justify-content: center;
@@ -38,34 +35,31 @@ h2{
     margin-bottom: 10px;
     
 }
-
-
 .menu table th {
     font-weight: 1600;
 }
-
 .menu table th, td{
     padding: 10px;
     width: 160px;
 }
-
 .descripcion{
     width: 400px;
 }
-
 #ir-arriba {
     padding: 50px;
 }
-#ir-arriba a{   
+a{   
     text-decoration: none;
 }
-#ir-arriba a:hover{   
+a:visited {
+    color: aqua;
+}
+a:hover{   
     color: blue;
 }
 .precio {
     text-align: right;
 }
-
 #titulo{
     padding: 5px;
     color: yellow;
