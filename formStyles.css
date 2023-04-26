@@ -6,7 +6,6 @@ form {
     flex-direction: column;
     gap: 12px;
 }
-
 input {
     border-radius: 5px;
     height: 30px;
