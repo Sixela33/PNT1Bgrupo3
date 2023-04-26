@@ -1,9 +1,11 @@
 html{
     background-color: aliceblue;
     font-family: “Comic Sans MS”, “Comic Sans”, monospace;
-    background-image: url('./Imagenes/papasfritas-crocantes-ñaaam.jpg');
-    color: white;
-    text-shadow: 5px 5px 10px black;
+    /* background-image: url('./Imagenes/papasfritas-crocantes-ñaaam.jpg'); */
+    background-color: lavender;
+    color: rgb(66, 66, 66);
+    /* text-shadow: 2px 2px 20px black; */
+    text-shadow: 2px 2px 20px white;
     font-size: 1.1rem;
 }
 body {
@@ -33,7 +35,6 @@ h2{
 .menu table{
     border-collapse: collapse;
     margin-bottom: 10px;
-    
 }
 .menu table th {
     font-weight: 1600;
@@ -50,9 +51,13 @@ h2{
 }
 a{   
     text-decoration: none;
+    font-size: larger;
+    text-decoration: underline ;
+    font-weight: 600;
 }
 a:visited {
-    color: aqua;
+    /* color: rgba(0, 255, 21, 0.603); */
+    color:blueviolet;
 }
 a:hover{   
     color: blue;
@@ -62,6 +67,23 @@ a:hover{
 }
 #titulo{
     padding: 5px;
-    color: yellow;
+    /* color: yellow; */
+    color:cornflowerblue;
     text-decoration: underline ;
+}
+svg {
+    fill: rgb(243, 157, 239);
+    width: 90px;
+
+}
+.svg-principal{
+    padding: 50px;
+}
+
+#notitauwu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    margin: 20px;
 }
