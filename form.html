@@ -8,6 +8,17 @@
     <link rel="stylesheet" href="./styles.css">
     <link rel="stylesheet" href="./formStyles.css">
     <title>Hacer Reserva</title>
+    
+    <script type="text/javascript">
+    window.onload=function(){
+    var today = new Date().toISOString().split('Z')[0].split(':')
+    today = today[0] + ':' + today[1]
+    console.log(today)
+    document.getElementsByName("setTodaysDate")[0].min = today;
+    }
+    
+    </script> 
+
 </head>
 <body>
     <main>
@@ -22,15 +33,15 @@
             <section>
 
                 <form>
-                    <label for="name">Nombre y apellido</label>
-                    <input type="text" id="name" name="name">
+                    <label  for="name">Nombre y apellido</label>
+                    <input required type="text" id="name" name="name">
 
                     <label for="date">Fecha</label>
-                    <input type="datetime-local" id="date" name="date">
+                    <input required type="datetime-local" id="date" name="setTodaysDate">
 
 
                     <label for="amount">Cantidad de personas</label>
-                    <input type="number" id="amount" name="amount">
+                    <input required type="number" id="amount" name="amount">
 
                     <label for="email">E-mail</label>
                     <input type="email" required id="email" name="email">
